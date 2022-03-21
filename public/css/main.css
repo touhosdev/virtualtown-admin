@@ -1,0 +1,201 @@
+/* General */
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.msg {
+    background-color: #30beee;
+    color: #fff;
+    border: 1px solid #2599c0;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #FFF;
+    border-top: 6px solid #30beee;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #30beee;
+    border: 2px solid #2599c0;
+}
+
+.btn-primary:hover {
+    background-color: #2599c0;
+    border-color: #2599c0;
+}
+
+/* NavBar */
+
+#navbar {
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 5px 0;
+    padding-right: 20px;
+}
+
+#navbar a {
+    font-size: 16px;
+}
+
+#navbar a:hover {
+    color: #2599c0;
+}
+
+/* Search Container */
+
+#search-container {
+    background-image: url("../imgs/search.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #3E3E3E;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Machines List */
+
+#machines-container {
+    padding: 50px;
+}
+
+#machines-container h2 {
+    margin-bottom: 10px;
+}
+
+#machines-container .subtitle {
+    color: #2599c0;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#machines-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#machines-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title {
+    color: #2599c0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Machine Create */
+#machine-create-container div {
+    margin-bottom: 1.2%;
+}
+
+#machine-create-container {
+    padding: 30px;
+}
+
+#machine-create-container label {
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Event Page */
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 24px;
+    color: #2599c0;
+    margin-right: 5px;
+}
+
+#info-container #machine-submit {
+    margin: 20px 0;
+}
